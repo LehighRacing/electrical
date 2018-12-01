@@ -58,6 +58,7 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Components from MicroSquirt branded products</description>
 <packages>
 <package name="MICROSQUIRT_MODULE_V2.2M">
 <wire x1="3.1722" y1="76.067" x2="2.5372" y2="75.432" width="0.1524" layer="21"/>
