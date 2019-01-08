@@ -410,60 +410,60 @@
 </packages>
 <symbols>
 <symbol name="MICROSQUIRT_MODULE_V2.2M">
-<pin name="+12V" x="-27.94" y="25.4" length="middle" direction="pwr"/>
-<pin name="GND" x="-27.94" y="-17.78" length="middle" direction="pwr"/>
-<pin name="MAP_IN" x="-27.94" y="22.86" length="middle"/>
-<pin name="CLT_IN" x="-27.94" y="20.32" length="middle"/>
-<pin name="SERIAL_RX" x="22.86" y="25.4" length="middle" rot="R180"/>
-<pin name="SERIAL_TX" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="ACCEL_LED_OUT" x="-27.94" y="17.78" length="middle"/>
-<pin name="MAT_IN" x="-27.94" y="15.24" length="middle"/>
-<pin name="WARMLED_OUT" x="-27.94" y="12.7" length="middle"/>
-<pin name="TPS_IN" x="-27.94" y="10.16" length="middle"/>
-<pin name="5V_VREF_OUT" x="-27.94" y="7.62" length="middle"/>
-<pin name="SPARE_ADC_1" x="-27.94" y="5.08" length="middle"/>
-<pin name="OPTO_IN+" x="-27.94" y="2.54" length="middle"/>
-<pin name="OPTO_IN-" x="-27.94" y="0" length="middle"/>
-<pin name="VR_IN1+" x="-27.94" y="-2.54" length="middle"/>
-<pin name="VR1,2_GND" x="-27.94" y="-5.08" length="middle"/>
-<pin name="O2_IN" x="-27.94" y="-7.62" length="middle"/>
-<pin name="TACH_OUT" x="-27.94" y="-10.16" length="middle"/>
-<pin name="SERIAL_GND" x="-27.94" y="-12.7" length="middle"/>
-<pin name="SENSOR_GND" x="-27.94" y="-15.24" length="middle"/>
-<pin name="BOOTLOADER" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="CANH" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="CANL" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="VR_IN2+" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="SPARE_ADC_2" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="FLEX" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="FIDLE_OUT" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="INJ1_OUT" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="INJ2_OUT" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="IGN2_OUT" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="IGN1_OUT" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="GND2" x="22.86" y="-33.02" length="middle" direction="pwr" rot="R180"/>
-<pin name="ALT_INJ1" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="PE1" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="PA0" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="ALT_INJ2" x="22.86" y="-20.32" length="middle" rot="R180"/>
-<pin name="PT7" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="ALT_CAM" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="PT6" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="IAC_ENBL" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<wire x1="-22.86" y1="30.48" x2="17.78" y2="30.48" width="0.254" layer="94"/>
-<wire x1="17.78" y1="30.48" x2="17.78" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-38.1" x2="-22.86" y2="-38.1" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-38.1" x2="-22.86" y2="30.48" width="0.254" layer="94"/>
-<text x="-22.86" y="33.782" size="1.27" layer="95">&gt;NAME</text>
-<text x="-22.86" y="31.242" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="FUEL_PUMP_OUT" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="+12V" x="-25.4" y="27.94" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND" x="-25.4" y="-15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="MAP_IN" x="-25.4" y="25.4" visible="pin" length="middle"/>
+<pin name="CLT_IN" x="-25.4" y="22.86" visible="pin" length="middle"/>
+<pin name="SERIAL_RX" x="25.4" y="27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="SERIAL_TX" x="25.4" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="ACCEL_LED_OUT" x="-25.4" y="20.32" visible="pin" length="middle"/>
+<pin name="MAT_IN" x="-25.4" y="17.78" visible="pin" length="middle"/>
+<pin name="WARMLED_OUT" x="-25.4" y="15.24" visible="pin" length="middle"/>
+<pin name="TPS_IN" x="-25.4" y="12.7" visible="pin" length="middle"/>
+<pin name="5V_VREF_OUT" x="-25.4" y="10.16" visible="pin" length="middle"/>
+<pin name="SPARE_ADC_1" x="-25.4" y="7.62" visible="pin" length="middle"/>
+<pin name="OPTO_IN+" x="-25.4" y="5.08" visible="pin" length="middle"/>
+<pin name="OPTO_IN-" x="-25.4" y="2.54" visible="pin" length="middle"/>
+<pin name="VR_IN1+" x="-25.4" y="0" visible="pin" length="middle"/>
+<pin name="VR1,2_GND" x="-25.4" y="-2.54" visible="pin" length="middle"/>
+<pin name="O2_IN" x="-25.4" y="-5.08" visible="pin" length="middle"/>
+<pin name="TACH_OUT" x="-25.4" y="-7.62" visible="pin" length="middle"/>
+<pin name="SERIAL_GND" x="-25.4" y="-10.16" visible="pin" length="middle"/>
+<pin name="SENSOR_GND" x="-25.4" y="-12.7" visible="pin" length="middle"/>
+<pin name="BOOTLOADER" x="25.4" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="CANH" x="25.4" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="CANL" x="25.4" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="VR_IN2+" x="25.4" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="SPARE_ADC_2" x="25.4" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="FLEX" x="25.4" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="FIDLE_OUT" x="25.4" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="INJ1_OUT" x="25.4" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="INJ2_OUT" x="25.4" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="IGN2_OUT" x="25.4" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="IGN1_OUT" x="25.4" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GND2" x="25.4" y="-30.48" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="ALT_INJ1" x="25.4" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="PE1" x="25.4" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PA0" x="25.4" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="ALT_INJ2" x="25.4" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="PT7" x="25.4" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="ALT_CAM" x="25.4" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="PT6" x="25.4" y="-25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="IAC_ENBL" x="25.4" y="-27.94" visible="pin" length="middle" rot="R180"/>
+<wire x1="-20.32" y1="33.02" x2="20.32" y2="33.02" width="0.254" layer="94"/>
+<wire x1="20.32" y1="33.02" x2="20.32" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-33.02" x2="-20.32" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-33.02" x2="-20.32" y2="33.02" width="0.254" layer="94"/>
+<text x="-20.32" y="36.322" size="1.27" layer="95">&gt;NAME</text>
+<text x="-20.32" y="33.782" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="FUEL_PUMP_OUT" x="25.4" y="5.08" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="MICROSQUIRT_MODULE_V2.2M">
 <description>Microsquirt Module V2.2M. This part is a board-mounted card design.</description>
 <gates>
-<gate name="G$1" symbol="MICROSQUIRT_MODULE_V2.2M" x="-0.508" y="-1.27"/>
+<gate name="G$1" symbol="MICROSQUIRT_MODULE_V2.2M" x="-0.508" y="1.27"/>
 </gates>
 <devices>
 <device name="" package="MICROSQUIRT_MODULE_V2.2M">
