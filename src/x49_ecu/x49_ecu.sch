@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1807,20 +1807,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="111.76" y="88.9" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="VDD12V_L_FAN" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="32"/>
-<wire x1="20.32" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
-<label x="27.94" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VDD12V_R_FAN" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="33"/>
-<wire x1="20.32" y1="10.16" x2="25.4" y2="10.16" width="0.1524" layer="91"/>
-<label x="27.94" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="NEUTRAL_IN" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="8"/>
@@ -1831,6 +1817,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="J1" gate="G$1" pin="30"/>
 <wire x1="20.32" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
 <label x="27.94" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="FAN_EN_OUT" class="0">
+<segment>
+<pinref part="MICROSQUIRT" gate="G$1" pin="FIDLE_OUT"/>
+<wire x1="170.18" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
+<label x="177.8" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="32"/>
+<wire x1="20.32" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<label x="27.94" y="12.7" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="33"/>
+<wire x1="22.86" y1="12.7" x2="25.4" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="10.16" x2="22.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="10.16" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
+<junction x="22.86" y="12.7"/>
 </segment>
 </net>
 </nets>
