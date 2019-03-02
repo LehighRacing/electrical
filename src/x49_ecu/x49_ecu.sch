@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2580,11 +2580,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="27.94" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="22"/>
-<wire x1="20.32" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<label x="27.94" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="3"/>
 <wire x1="20.32" y1="-60.96" x2="22.86" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-60.96" x2="22.86" y2="-66.04" width="0.1524" layer="91"/>
@@ -2740,6 +2735,10 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="20.32" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="48.26" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 <junction x="22.86" y="48.26"/>
+<pinref part="J1" gate="G$1" pin="22"/>
+<wire x1="20.32" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="43.18" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<junction x="22.86" y="45.72"/>
 </segment>
 </net>
 <net name="VDD12V_DASH" class="1">
