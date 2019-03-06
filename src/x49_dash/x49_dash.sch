@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -3828,22 +3828,22 @@ Spark Fun Electronics SKU : COM-00107</description>
 <description>Adafruit Components</description>
 <packages>
 <package name="OLED-1.27INCH-BREAKOUT">
-<wire x1="-17.78" y1="-12.7" x2="-19.05" y2="-12.7" width="0" layer="21"/>
-<wire x1="-19.05" y1="-12.7" x2="-21.59" y2="-15.24" width="0" layer="21" curve="90"/>
-<wire x1="-21.59" y1="-15.24" x2="-19.05" y2="-17.78" width="0" layer="21" curve="90"/>
-<wire x1="-19.05" y1="-17.78" x2="19.05" y2="-17.78" width="0" layer="21"/>
-<wire x1="19.05" y1="-17.78" x2="21.59" y2="-15.24" width="0" layer="21" curve="90"/>
-<wire x1="21.59" y1="-15.24" x2="19.05" y2="-12.7" width="0" layer="21" curve="90"/>
-<wire x1="19.05" y1="-12.7" x2="17.78" y2="-12.7" width="0" layer="21"/>
-<wire x1="17.78" y1="-12.7" x2="17.78" y2="12.7" width="0" layer="21"/>
-<wire x1="17.78" y1="12.7" x2="19.05" y2="12.7" width="0" layer="21"/>
-<wire x1="19.05" y1="12.7" x2="21.59" y2="15.24" width="0" layer="21" curve="90"/>
-<wire x1="21.59" y1="15.24" x2="19.05" y2="17.78" width="0" layer="21" curve="90"/>
-<wire x1="19.05" y1="17.78" x2="-19.05" y2="17.78" width="0" layer="21"/>
-<wire x1="-19.05" y1="17.78" x2="-21.59" y2="15.24" width="0" layer="21" curve="90"/>
-<wire x1="-21.59" y1="15.24" x2="-19.05" y2="12.7" width="0" layer="21" curve="90"/>
-<wire x1="-19.05" y1="12.7" x2="-17.78" y2="12.7" width="0" layer="21"/>
-<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-12.7" width="0" layer="21"/>
+<wire x1="-17.78" y1="-12.7" x2="-19.05" y2="-12.7" width="0.2032" layer="21"/>
+<wire x1="-19.05" y1="-12.7" x2="-21.59" y2="-15.24" width="0.2032" layer="21" curve="90"/>
+<wire x1="-21.59" y1="-15.24" x2="-19.05" y2="-17.78" width="0.2032" layer="21" curve="90"/>
+<wire x1="-19.05" y1="-17.78" x2="19.05" y2="-17.78" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="-17.78" x2="21.59" y2="-15.24" width="0.2032" layer="21" curve="90"/>
+<wire x1="21.59" y1="-15.24" x2="19.05" y2="-12.7" width="0.2032" layer="21" curve="90"/>
+<wire x1="19.05" y1="-12.7" x2="17.78" y2="-12.7" width="0.2032" layer="21"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="12.7" width="0.2032" layer="21"/>
+<wire x1="17.78" y1="12.7" x2="19.05" y2="12.7" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="12.7" x2="21.59" y2="15.24" width="0.2032" layer="21" curve="90"/>
+<wire x1="21.59" y1="15.24" x2="19.05" y2="17.78" width="0.2032" layer="21" curve="90"/>
+<wire x1="19.05" y1="17.78" x2="-19.05" y2="17.78" width="0.2032" layer="21"/>
+<wire x1="-19.05" y1="17.78" x2="-21.59" y2="15.24" width="0.2032" layer="21" curve="90"/>
+<wire x1="-21.59" y1="15.24" x2="-19.05" y2="12.7" width="0.2032" layer="21" curve="90"/>
+<wire x1="-19.05" y1="12.7" x2="-17.78" y2="12.7" width="0.2032" layer="21"/>
+<wire x1="-17.78" y1="12.7" x2="-17.78" y2="-12.7" width="0.2032" layer="21"/>
 <wire x1="13.97" y1="14.605" x2="13.97" y2="15.875" width="0.2032" layer="51"/>
 <pad name="1" x="12.7" y="15.24" drill="1" diameter="1.6764" rot="R270"/>
 <pad name="2" x="10.16" y="15.24" drill="1" diameter="1.6764" rot="R270"/>
