@@ -9817,27 +9817,27 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <attribute name="NAME" x="237.4896" y="124.460609375" size="2.5402" layer="95"/>
 <attribute name="VALUE" x="237.48581875" y="104.1296" size="2.542090625" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="256.54" y="40.64" smashed="yes">
-<attribute name="NAME" x="252.73" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="252.73" y="37.338" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="256.54" y="17.78" smashed="yes">
+<attribute name="NAME" x="252.73" y="19.2786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="252.73" y="14.478" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="246.38" y="40.64" smashed="yes">
-<attribute name="NAME" x="242.57" y="42.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.57" y="37.338" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="246.38" y="17.78" smashed="yes">
+<attribute name="NAME" x="242.57" y="19.2786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.57" y="14.478" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="G$1" x="256.54" y="33.02" smashed="yes">
-<attribute name="NAME" x="252.73" y="34.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="252.73" y="29.718" size="1.778" layer="96"/>
+<instance part="R3" gate="G$1" x="256.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="252.73" y="11.6586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="252.73" y="6.858" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="246.38" y="33.02" smashed="yes">
-<attribute name="NAME" x="242.57" y="34.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.57" y="29.718" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="246.38" y="10.16" smashed="yes">
+<attribute name="NAME" x="242.57" y="11.6586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="242.57" y="6.858" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="238.76" y="40.64" smashed="yes" rot="R270">
-<attribute name="VALUE" x="236.22" y="43.18" size="1.778" layer="96" rot="R270"/>
+<instance part="GND1" gate="1" x="238.76" y="17.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="236.22" y="20.32" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="GND4" gate="1" x="238.76" y="33.02" smashed="yes" rot="R270">
-<attribute name="VALUE" x="236.22" y="35.56" size="1.778" layer="96" rot="R270"/>
+<instance part="GND4" gate="1" x="238.76" y="10.16" smashed="yes" rot="R270">
+<attribute name="VALUE" x="236.22" y="12.7" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="H1" gate="G$1" x="68.58" y="73.66" smashed="yes">
 <attribute name="NAME" x="70.612" y="74.2442" size="1.778" layer="95"/>
@@ -9979,16 +9979,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="264.16" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="271.78" y1="43.18" x2="264.16" y2="43.18" width="0.1524" layer="91"/>
-<label x="264.16" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="13"/>
-<wire x1="271.78" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
-<label x="264.16" y="35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
@@ -10007,6 +9997,26 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="271.78" y1="43.18" x2="264.16" y2="43.18" width="0.1524" layer="91"/>
+<label x="264.16" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="14"/>
+<wire x1="271.78" y1="33.02" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
+<label x="264.16" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="18"/>
+<wire x1="271.78" y1="20.32" x2="264.16" y2="20.32" width="0.1524" layer="91"/>
+<label x="264.16" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="21"/>
+<wire x1="271.78" y1="12.7" x2="264.16" y2="12.7" width="0.1524" layer="91"/>
+<label x="264.16" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN-TX" class="0">
@@ -10058,19 +10068,19 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="219.71" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="271.78" y1="45.72" x2="264.16" y2="45.72" width="0.1524" layer="91"/>
-<label x="264.16" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="12"/>
-<wire x1="271.78" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
-<label x="264.16" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <wire x1="48.26" y1="152.4" x2="40.64" y2="152.4" width="0.1524" layer="91"/>
 <label x="40.64" y="152.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="17"/>
+<wire x1="271.78" y1="22.86" x2="264.16" y2="22.86" width="0.1524" layer="91"/>
+<label x="264.16" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="20"/>
+<wire x1="271.78" y1="15.24" x2="264.16" y2="15.24" width="0.1524" layer="91"/>
+<label x="264.16" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA0" class="0">
@@ -10078,11 +10088,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="25.4" y1="25.4" x2="34.29" y2="25.4" width="0.1524" layer="91"/>
 <label x="31.75" y="25.4" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="D18/A4"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="271.78" y1="60.96" x2="264.16" y2="60.96" width="0.1524" layer="91"/>
-<label x="264.16" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="SDA0"/>
@@ -10095,11 +10100,6 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="25.4" y1="29.21" x2="34.29" y2="29.21" width="0.1524" layer="91"/>
 <label x="31.75" y="29.21" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="D19/A5"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="271.78" y1="63.5" x2="264.16" y2="63.5" width="0.1524" layer="91"/>
-<label x="264.16" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="SCL0"/>
@@ -10116,9 +10116,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="33.02" x2="251.46" y2="27.94" width="0.1524" layer="91"/>
-<junction x="251.46" y="33.02"/>
-<label x="251.46" y="25.4" size="1.778" layer="95"/>
+<wire x1="251.46" y1="10.16" x2="251.46" y2="5.08" width="0.1524" layer="91"/>
+<junction x="251.46" y="10.16"/>
+<label x="251.46" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -10130,9 +10130,9 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="40.64" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
-<junction x="251.46" y="40.64"/>
-<label x="251.46" y="45.72" size="1.778" layer="95"/>
+<wire x1="251.46" y1="17.78" x2="251.46" y2="22.86" width="0.1524" layer="91"/>
+<junction x="251.46" y="17.78"/>
+<label x="251.46" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA1" class="0">
@@ -10141,22 +10141,12 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <label x="31.75" y="21.59" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="D17/A3"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="271.78" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
-<label x="264.16" y="50.8" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SCL1" class="0">
 <segment>
 <wire x1="25.4" y1="17.78" x2="34.29" y2="17.78" width="0.1524" layer="91"/>
 <label x="31.75" y="17.78" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="D16/A2"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="271.78" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
-<label x="264.16" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -10273,21 +10263,15 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="R16" gate="G$1" pin="2"/>
 <junction x="228.6" y="91.44"/>
 </segment>
-</net>
-<net name="N$11" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="271.78" y1="40.64" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="40.64" x2="261.62" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="271.78" y1="45.72" x2="264.16" y2="45.72" width="0.1524" layer="91"/>
+<label x="264.16" y="45.72" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$15" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="14"/>
-<wire x1="271.78" y1="33.02" x2="264.16" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="264.16" y1="33.02" x2="261.62" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="13"/>
+<wire x1="271.78" y1="35.56" x2="264.16" y2="35.56" width="0.1524" layer="91"/>
+<label x="264.16" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN1" class="0">
@@ -10380,6 +10364,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="182.88" y1="81.28" x2="182.88" y2="73.66" width="0.1524" layer="91"/>
 <label x="182.88" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="271.78" y1="63.5" x2="264.16" y2="63.5" width="0.1524" layer="91"/>
+<label x="259.08" y="63.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EXT_SCL2" class="0">
 <segment>
@@ -10391,6 +10380,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="81.28" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
 <label x="190.5" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="271.78" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
+<label x="259.08" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXT_SCL3" class="0">
@@ -10404,6 +10398,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="198.12" y1="81.28" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
 <label x="198.12" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="11"/>
+<wire x1="271.78" y1="40.64" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
+<label x="259.08" y="40.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EXT_SCL4" class="0">
 <segment>
@@ -10415,6 +10414,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="81.28" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
 <label x="205.74" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="15"/>
+<wire x1="271.78" y1="30.48" x2="264.16" y2="30.48" width="0.1524" layer="91"/>
+<label x="259.08" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXT_SDA1" class="0">
@@ -10428,6 +10432,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="213.36" y1="81.28" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
 <label x="213.36" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="271.78" y1="60.96" x2="264.16" y2="60.96" width="0.1524" layer="91"/>
+<label x="259.08" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EXT_SDA2" class="0">
 <segment>
@@ -10439,6 +10448,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="81.28" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="220.98" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="271.78" y1="50.8" x2="264.16" y2="50.8" width="0.1524" layer="91"/>
+<label x="259.08" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EXT_SDA3" class="0">
@@ -10452,6 +10466,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <wire x1="228.6" y1="81.28" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
 <label x="228.6" y="68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="12"/>
+<wire x1="271.78" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="259.08" y="38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EXT_SDA4" class="0">
 <segment>
@@ -10463,6 +10482,11 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="81.28" x2="236.22" y2="73.66" width="0.1524" layer="91"/>
 <label x="236.22" y="68.58" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="16"/>
+<wire x1="271.78" y1="25.4" x2="264.16" y2="25.4" width="0.1524" layer="91"/>
+<label x="259.08" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="1">
@@ -10491,6 +10515,20 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="U1" gate="A" pin="VCC"/>
 <wire x1="142.24" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
 <label x="134.62" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="19"/>
+<wire x1="261.62" y1="17.78" x2="271.78" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="22"/>
+<wire x1="261.62" y1="10.16" x2="271.78" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
